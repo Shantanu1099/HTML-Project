@@ -1,0 +1,59 @@
+<!Doctype html>
+<html>
+    <head>
+        <style>body
+{
+background-image:url('blood-donation-bank-donating-heart-260nw-429298819%20(1).jpg') ;
+  background-size: 800px;
+    background-repeat: no-repeat;
+   
+}</style>
+            <script>
+        function card()
+        {
+        var result=true;
+        var x=document.getElementsByName("card no")[0].value
+        if(x.length<16)
+            {
+                alert("Enter 16 digit card number")
+                result=false;
+            }
+                    if(x.length>16)
+            {
+                alert("Enter 16 digit card number")
+                result=false;
+            }
+            if(isNaN(x))
+                {
+                    alert("Enter only numeric value")
+                    result=false;
+                }
+            return(result);
+        }
+    </script>
+    </head>
+    <body>
+        <h1 style="text-align: center">Credit or Debit Card</h1>
+<center>
+        <form action="done.html" method="post" onsubmit="return card()">
+         <input type="radio" name="credit"/>credit card<br/>
+            <input type="radio" name="debit"/>debit card<br/>
+            <p>Enter card number:
+            <input type="text" name="card no" required/>
+            </p>
+            <p>Enter card holder name:
+                <input type="text" name="card holder" required/>
+            </p>
+            <p>Enter cvv:
+                <input type="text" name="cvv" required/>
+            </p>
+            <p>Expiry Date:
+                <input type="text" name="Exp.Date" required/>
+            </p>
+            <input type="submit" value="Submit" href="done.html"/>
+             <input type="reset"/>
+</center>
+        </form>
+    </body>    
+</html>
+

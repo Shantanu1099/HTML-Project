@@ -1,0 +1,50 @@
+<!DOCTYPE html
+<html>
+<head>
+<style>
+body
+{
+background-image:url('blood-donation-bank-donating-heart-260nw-429298819%20(1).jpg') ;
+  background-size: 800px;
+    background-repeat: no-repeat;
+   
+}
+</style>
+    <script>
+        function mobile()
+        {
+        var result=true;
+        var x=document.getElementsByName("paytm")[0].value
+        if(x.length<10)
+            {
+                alert("Enter 10 digit mobile number")
+                result=false;
+            }
+                    if(x.length>10)
+            {
+                alert("Enter 10 digit mobile number")
+                result=false;
+            }
+            if(isNaN(x))
+                {
+                    alert("Enter only numeric value")
+                    result=false;
+                }
+            return(result);
+        }
+    </script>
+</head>
+<body>
+<center>
+<h1>Pay through paytm</h1>
+<form action="done.html" method="post" onsubmit="return mobile()"/>
+<p>Paytm number
+<input type="text" name="paytm" placeholder="enter your paytm number"/>
+</p>
+<p>Scan this qr code
+<img src="qrcode2.png" alt="QR code" style="width:150px;height:150px;"></p>
+<input type="submit" value="Submit"/>
+</form>
+</center>
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* navbar */
+
+		.navbar-default{
+			background-color: #fcf8e3;
+			color: cyan;
+			height: 90px;
+			padding-top: 20px;
+
+		}
+		.navbar-default .navbar-nav > li > a{
+			color:  black;
+			font-size: 15px;
+		}
+
+		.navbar-default .navbar-brand{
+			color: #f03737;
+			text-transform: uppercase;
+			font-size:  29px;
+			font-weight: bolder;
+		}
+
+/*	navbar */
+
+/*	Footer*/
+
+/*		FOOTER		*/
+
+		footer{
+			background: black;
+			height: 600px;
+		}
+		.footer-p1{
+			/*padding-top: 30px;*/
+			padding: 30px 0px 10px 5px;
+			color: white;
+			font-size: 17px;
+		}
+		.footer-h2{
+			color: snow;
+			padding: 40px 0 0 18px;
+		}
+		.footer-a-all{
+			text-align:  right;
+			padding: 30px 10px 10px 10px;
+		}
+		.footer-a1{
+			border-right: 1px solid white;
+			padding-left: 8px;
+			padding-right: 8px;
+			font-size: 15px;
+			color:  white;
+		}
+		.footer-a1-l{
+			border-right: 0px;
+		}
+		.footer-input{
+			padding: 10px;
+			/*margin-left: 5px;*/
+			width: 100%;
+			margin-top: 10px;
+			margin-bottom:20px;
+			font-size: 18px;
+			background: #3D4039;
+			border: 0;
+			color: snow;
+		}
+		.footer-h4{
+			color: white;
+			padding-top: 10px;
+		}
+
+		.btn-footer{
+			background-color: rgb(225,25,30);
+			margin-bottom: 30px;
+		}
+
+/*	Footer		*/
+
+/*	Image - background */
+		#h-image{
+			background-image: url("685987201c28d78.jpg");
+			height: 500px;
+			background-size: cover;
+		}
+
+/*	Image - background */
+
+/* main*/
+		.main-h3{
+			color : #f03737;
+		}
+	
+
+
+
+
+

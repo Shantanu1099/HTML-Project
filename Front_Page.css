@@ -1,0 +1,233 @@
+		.select-three{
+			margin:6px 10px 0 0;
+			font-size: 15px;
+			width: 200px;
+			/*display: block;*/
+			height: 45px;
+			border-radius: 5px;
+			line-height: 1.6;
+			border: 2px solid #ccc;
+		}
+
+		.select-three:hover{
+			border-color: #66afe9;
+		}
+
+		.h1-one{
+			margin-top: 30px;
+			color: white;
+		}
+		.label-one{
+			margin:20px 10px 0 0;
+			width: 200px;
+			/*float:left;*/
+			color: white;
+			font-size: 18px;
+		}
+		.p-one{
+			color: white;
+			margin-top: 10px;
+			font-size: 15px;
+		}
+
+		.main{
+			background-image: url(download.jpg);
+			background-size: cover;
+			background-position: center;
+			/*width:2000px;*/
+			height:505px;
+			
+		}
+		.main-h1{
+			background: rgba(0,0,0,0.7);
+			margin: 10% auto;
+			color: #ea6161;
+			padding-top: 50px;
+			/*border: 1px solid black;*/
+			width: 60%;
+			height: 250px;
+			font-weight: bold;
+			text-align: center;
+		}
+		.main .btn-danger{
+			margin-top: 20px;
+			background: rgb(214,53,30);
+		}
+		#main-btn{
+			margin: 0 0 0 20px ;
+			border: 1px  solid white;
+			background-color:  rgb(214,53,30);
+		}
+
+		.navbar-default{
+			background-color: #fcf8e3;
+			color: cyan;
+			height: 90px;
+			padding-top: 20px;
+
+		}
+		.navbar-default .navbar-nav > li > a{
+			color:  black;
+			font-size: 15px;
+		}
+
+		.navbar-default .navbar-brand{
+			color: #f03737ed;
+			text-transform: uppercase;
+			font-size:  29px;
+			font-weight: bolder;
+		}
+		.space-one{
+			height: 45px;
+			background: #fe3c47;
+		}
+		.space-one-p{
+			text-align: center;
+			color: white;
+			font-size: 16px;
+			padding-top: 12px;
+			font-weight: bold;
+
+		}
+		.space-two{
+			height:  20px;
+			background: black;
+			margin-top: -20px;
+		}
+		.search{
+			background: rgb(214,53,30);
+			height: 350px;
+			width: 100%;
+			/*color: white;*/
+		}
+		.btn-general:hover{
+			cursor: pointer;
+			color: white;
+			background-color: black;
+		}
+		.help{
+			height: 200px;
+			background: #f8f9fa;
+		}
+		.help-h2{
+			padding: 20px 10px 10px 0;
+			/*font-*/
+		}
+		.help-p{
+			padding-right: 5px;
+			font-size: 17px;
+		}
+
+/*		FOOTER			*/
+
+
+		footer{
+			background: black;
+			height: 600px;
+		}
+		.footer-p1{
+			/*padding-top: 30px;*/
+			padding: 30px 0px 10px 5px;
+			color: white;
+			font-size: 17px;
+		}
+		.footer-h2{
+			color: snow;
+			padding: 40px 0 0 18px;
+		}
+		.footer-a-all{
+			text-align:  right;
+			padding: 30px 10px 10px 10px;
+		}
+		.footer-a1{
+			border-right: 1px solid white;
+			padding-left: 8px;
+			padding-right: 8px;
+			font-size: 15px;
+			color:  white;
+		}
+		.footer-a1-l{
+			border-right: 0px;
+		}
+		.footer-input{
+			padding: 10px;
+			/*margin-left: 5px;*/
+			width: 100%;
+			margin-top: 10px;
+			margin-bottom:20px;
+			font-size: 18px;
+			background: #3D4039;
+			border: 0;
+			color: snow;
+		}
+		.footer-h4{
+			color: white;
+			padding-top: 10px;
+		}
+
+		.btn-footer{
+			background-color: rgb(225,25,30);
+			margin-bottom: 30px;
+		}
+		.p-search-one{
+			padding-top: 10px;
+			font-size:  20px;
+			color:  white;
+		}
+		#search-btn{
+			margin: 0 0 0 20px ;
+			border: 1px  solid white;
+			background-color:  rgb(214,53,30);
+		}
+		.style13 {
+			width: 500px;
+			margin-left: 0;
+		}
+
+		.donation{
+			height: 730px;
+			background: white;
+		}
+		.donation-h1{
+			text-align: center;
+			font-weight: bold;
+			margin: 80px auto 25px;
+		}
+		.style12{
+	  		border : 1px solid red;
+	  		width: 20%;
+	 		height: 1px;
+	 		background-color:red; 
+			background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+		}
+		.donation-p1{
+			text-align: center;
+			font-size:20px;
+			padding: 10px;
+		}
+		.D-img{
+			width: auto;
+			height: 280px;
+			margin: 0 0;
+		}
+		.d-grid{
+			height: 500px;
+			/*border: 1px solid black;*/
+			float:left;
+
+			padding: 20px 20px;
+		}
+		.d-h4{
+			color: #fe3c47;
+			font-size: 25px;
+			padding: 0;
+		}
+		.donationC{
+			background-color: #f8f9fa;
+			padding: 10px;
+			border: 0px;
+		}
+		.donationP{
+			font-size: 16px;
+			color: #4d4d4d;
+		}
